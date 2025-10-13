@@ -7,13 +7,229 @@
 </head>
 <body>
 	<header>
-		<h1>Welcome to My Web Project</h1>
+		<h1>Web Project 1</h1>
 	</header>
 	<main>
-		<p>This is a standard HTML5 template. Start building your site here!</p>
+		<p>This is a standard HTML5 template.</p>
 	</main>
 	<footer>
-		<p>&copy; 2025 Your Name</p>
+		<p>&copy; Laura Altozano 2025</p>
 	</footer>
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Web Design Resources — Laura <div Altozano=""></div></title>
+  <link rel="stylesheet" href="../assets/css/index.css" />
+  <link rel="stylesheet" href="../assets/css/resources.css" />
+</head>
+<body>
+
+  <!-- ===== HEADER ===== -->
+  <header class="resources-header">
+    <div class="container">
+      <h1>Classic & Modern Web Design Tools (2025)</h1>
+      <p>Research & Reflection by <strong>Laura Altozano</strong> · UDIT</p>
+    </div>
+  </header>
+
+  <!-- ===== NAVIGATION ===== -->
+  <nav class="resources-nav">
+    <ul>
+      <li><a href="#css-frameworks">CSS Frameworks</a></li>
+      <li><a href="#site-generators">Static Site Generators</a></li>
+      <li><a href="#animation-libraries">Animation Libraries</a></li>
+      <li><a href="#templates">Templates</a></li>
+      <li><a href="#saas-tools">SaaS Tools</a></li>
+      <li><a href="#reflection">Critical Reflection</a></li>
+    </ul>
+  </nav>
+
+  <main class="container">
+
+    <!-- ===== CSS FRAMEWORKS ===== -->
+    <section id="css-frameworks" class="tools-section">
+      <h2>CSS Frameworks</h2>
+      <div class="tools-grid">
+
+        <!-- TailwindCSS -->
+        <article class="tool-card">
+          <h3><a href="https://tailwindcss.com/" target="_blank">TailwindCSS</a></h3>
+          <span class="runtime-badge nodejs">Requires Node.js</span>
+          <img src="https://upload.wikimedia.org/wikipedia/commons/d/d5/Tailwind_CSS_Logo.svg" alt="TailwindCSS logo" width="120">
+          <div class="tool-info">
+            <p><strong>Type:</strong> Utility-first CSS framework</p>
+            <p><strong>Use:</strong> Build custom designs quickly using pre-defined utility classes.</p>
+            <p><strong>Learning curve:</strong> Intermediate</p>
+          </div>
+          <div class="personal-notes">
+            <h4>Personal Notes</h4>
+            <p>Me gusta su flexibilidad y cómo permite mantener un diseño coherente. Aunque requiere Node.js, su rapidez de prototipado compensa el esfuerzo inicial.</p>
+          </div>
+        </article>
+
+        <!-- Bootstrap -->
+        <article class="tool-card">
+          <h3><a href="https://getbootstrap.com/" target="_blank">Bootstrap</a></h3>
+          <span class="runtime-badge standalone">No Node.js</span>
+          <img src="https://upload.wikimedia.org/wikipedia/commons/b/b2/Bootstrap_logo.svg" alt="Bootstrap logo" width="120">
+          <div class="tool-info">
+            <p><strong>Type:</strong> Responsive CSS framework</p>
+            <p><strong>Use:</strong> Quick layout and components for web interfaces.</p>
+            <p><strong>Learning curve:</strong> Beginner → Intermediate</p>
+          </div>
+          <div class="personal-notes">
+            <h4>Personal Notes</h4>
+            <p>Ideal para proyectos rápidos. Me gusta que no necesita Node.js y funciona solo con un enlace CDN.</p>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <!-- ===== STATIC SITE GENERATORS ===== -->
+    <section id="site-generators" class="tools-section">
+      <h2>Static Site Generators</h2>
+      <div class="tools-grid">
+
+        <!-- Jekyll -->
+        <article class="tool-card">
+          <h3><a href="https://jekyllrb.com/" target="_blank">Jekyll</a></h3>
+          <span class="runtime-badge" style="background-color:#cc0000; color:#fff;">Requires Ruby</span>
+          <img src="https://jekyllrb.com/img/logo-2x.png" alt="Jekyll logo" width="120">
+          <div class="tool-info">
+            <p><strong>Type:</strong> Static site generator (Ruby)</p>
+            <p><strong>Use:</strong> Build blogs and portfolios from Markdown and templates.</p>
+            <p><strong>Learning curve:</strong> Beginner → Intermediate</p>
+          </div>
+          <div class="personal-notes">
+            <h4>Personal Notes</h4>
+            <p>Me gusta su simplicidad y que se integra directamente con GitHub Pages. Ideal para proyectos pequeños.</p>
+          </div>
+        </article>
+
+        <!-- Hugo -->
+        <article class="tool-card">
+          <h3><a href="https://gohugo.io/" target="_blank">Hugo</a></h3>
+          <span class="runtime-badge standalone">Standalone Binary</span>
+          <img src="https://upload.wikimedia.org/wikipedia/commons/1/12/Hugo-logo.png" alt="Hugo logo" width="120">
+          <div class="tool-info">
+            <p><strong>Type:</strong> Static site generator</p>
+            <p><strong>Use:</strong> Fast site building with Markdown and templates.</p>
+            <p><strong>Learning curve:</strong> Intermediate</p>
+          </div>
+          <div class="personal-notes">
+            <h4>Personal Notes</h4>
+            <p>Perfecto para proyectos grandes por su rapidez. Me gusta que no requiere Node.js.</p>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <!-- ===== ANIMATION LIBRARIES ===== -->
+    <section id="animation-libraries" class="tools-section">
+      <h2>Animation Libraries</h2>
+      <div class="tools-grid">
+
+        <!-- GSAP -->
+        <article class="tool-card">
+          <h3><a href="https://greensock.com/gsap/" target="_blank">GSAP</a></h3>
+          <span class="runtime-badge standalone">No Node.js</span>
+          <img src="https://greensock.com/uploads/set_resources_2/green-sock-logo.svg" alt="GSAP logo" width="120">
+          <div class="tool-info">
+            <p><strong>Type:</strong> Animation library</p>
+            <p><strong>Use:</strong> Smooth, performant animations for websites.</p>
+            <p><strong>Learning curve:</strong> Intermediate → Advanced</p>
+          </div>
+          <div class="personal-notes">
+            <h4>Personal Notes</h4>
+            <p>Me encanta para crear efectos visuales llamativos. No requiere instalación compleja.</p>
+          </div>
+        </article>
+
+        <!-- Framer Motion -->
+        <article class="tool-card">
+          <h3><a href="https://www.framer.com/motion/" target="_blank">Framer Motion</a></h3>
+          <span class="runtime-badge nodejs">Requires Node.js</span>
+          <img src="https://seeklogo.com/images/F/framer-motion-logo-DA1E33CAA1-seeklogo.com.png" alt="Framer Motion logo" width="120">
+          <div class="tool-info">
+            <p><strong>Type:</strong> React animation library</p>
+            <p><strong>Use:</strong> Create dynamic, interactive UI animations.</p>
+            <p><strong>Learning curve:</strong> Intermediate</p>
+          </div>
+          <div class="personal-notes">
+            <h4>Personal Notes</h4>
+            <p>Ideal para portafolios modernos en React. Las transiciones son suaves y profesionales.</p>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <!-- ===== TEMPLATES ===== -->
+    <section id="templates" class="tools-section">
+      <h2>Templates & Kits</h2>
+      <div class="tools-grid">
+
+        <!-- HTML5 UP -->
+        <article class="tool-card">
+          <h3><a href="https://html5up.net/" target="_blank">HTML5 UP</a></h3>
+          <span class="runtime-badge standalone">No Node.js</span>
+          <img src="https://html5up.net/uploads/images/html5up-logo.png" alt="HTML5 UP logo" width="120">
+          <div class="tool-info">
+            <p><strong>Type:</strong> Free HTML/CSS templates</p>
+            <p><strong>Use:</strong> Ready-made templates for quick deployment.</p>
+            <p><strong>Learning curve:</strong> Beginner</p>
+          </div>
+          <div class="personal-notes">
+            <h4>Personal Notes</h4>
+            <p>Muy útil para inspirarse o empezar un proyecto desde una base limpia.</p>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <!-- ===== SAAS TOOLS ===== -->
+    <section id="saas-tools" class="tools-section">
+      <h2>SaaS Tools</h2>
+      <div class="tools-grid">
+
+        <!-- Hygraph -->
+        <article class="tool-card">
+          <h3><a href="https://hygraph.com/" target="_blank">Hygraph</a></h3>
+          <span class="runtime-badge saas">SaaS (Cloud)</span>
+          <img src="https://hygraph.com/_next/image?url=%2Fimages%2Flogos%2Fhygraph-logo.svg&w=256&q=75" alt="Hygraph logo" width="120">
+          <div class="tool-info">
+            <p><strong>Type:</strong> Headless CMS</p>
+            <p><strong>Use:</strong> Manage and deliver structured content via GraphQL API.</p>
+            <p><strong>Learning curve:</strong> Intermediate</p>
+          </div>
+          <div class="personal-notes">
+            <h4>Personal Notes</h4>
+            <p>Ideal para proyectos donde el contenido cambia frecuentemente. Me gusta su integración con frameworks modernos.</p>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <!-- ===== REFLECTION ===== -->
+    <section id="reflection" class="tools-section">
+      <h2>Critical Reflection (ATELIER)</h2>
+      <p>Al comparar estas herramientas, entiendo mejor las diferencias entre velocidad, flexibilidad y dependencia tecnológica. 
+        Por ejemplo, Bootstrap y GSAP funcionan sin Node.js, lo que facilita la rapidez en proyectos pequeños. En cambio, TailwindCSS o Framer Motion requieren Node.js pero permiten una personalización mucho más profunda.
+        <br><br>
+        Prefiero combinar herramientas simples con otras más potentes según el contexto. En mi portafolio, usaría Hugo como generador principal por su velocidad, GSAP para animaciones suaves y TailwindCSS para crear una identidad visual coherente.
+        <br><br>
+        En conclusión, el equilibrio entre creatividad y convención es clave: no siempre lo más complejo es lo más útil, pero conocerlo te da poder para elegir bien.</p>
+    </section>
+
+  </main>
+
+  <!-- ===== FOOTER ===== -->
+  <footer class="resources-footer">
+    <p>© 2025 · Web Atelier — UDIT · Laura Altozano]</p>
+  </footer>
+
 </body>
 </html>
