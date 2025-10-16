@@ -26,7 +26,7 @@ body {
 
 /* ===== HEADER ===== */
 .resources-header {
-  background-color: #ffedf0;
+  background-color: #000000;
   padding: 3rem 0;
   text-align: center;
 }
@@ -34,12 +34,12 @@ body {
 .resources-header h1 {
   font-size: 2.2rem;
   margin-bottom: 0.5rem;
-  color: #d6336c;
+  color: #ffffff;
 }
 
 .resources-header p {
   font-size: 1rem;
-  color: #555;
+  color: #a8a8a8;
 }
 
 /* ===== NAVIGATION ===== */
@@ -65,13 +65,13 @@ body {
 
 .resources-nav a {
   text-decoration: none;
-  color: #d6336c;
+  color: #000000;
   font-weight: 500;
   transition: color 0.3s ease;
 }
 
 .resources-nav a:hover {
-  color: #ff6f91;
+  color: #000000;
 }
 
 /* ===== TOOLS SECTION ===== */
@@ -81,7 +81,7 @@ body {
 
 .tools-section h2 {
   font-size: 1.8rem;
-  color: #d6336c;
+  color: #000000;
   margin-bottom: 2rem;
   text-align: center;
 }
@@ -95,7 +95,7 @@ body {
 
 /* ===== TOOL CARD ===== */
 .tool-card {
-  background-color: #fff;
+  background-color: #ffffff;
   border-radius: 12px;
   box-shadow: 0 4px 12px rgba(0,0,0,0.05);
   padding: 1.5rem;
@@ -114,11 +114,11 @@ body {
 
 .tool-card h3 a {
   text-decoration: none;
-  color: #d6336c;
+  color: #000000;
 }
 
 .tool-card h3 a:hover {
-  color: #ff6f91;
+  color: #bcbcbc;
 }
 
 .tool-card img {
